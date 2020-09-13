@@ -1,0 +1,90 @@
+html { height: 100%; }
+
+
+body {
+    background-color: rgb(160, 121, 121);
+    background: linear-gradient(0deg, rgb(34,193,195) 0%, rgb(255,220,144) 100%);
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(245, 112, 89);
+}
+
+#title {
+    padding: 1rem 0;
+}
+
+#firstBox {
+    border-radius: 15px;
+    background-color: rgb(243, 238, 232);
+    width: 50%;
+    margin: 2rem auto 0 auto;
+    text-align:center;
+}
+
+#firstButton {
+    margin: 1rem 0;
+    background: rgb(159, 212, 172);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 2rem;
+    border:none;
+    outline: none;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+    #firstButton:hover {
+        cursor: pointer;
+        background-color: rgb(143, 194, 155);
+    }
+
+    #firstButton:active {
+        border:none;
+        box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.6);
+        transform: translateY(2px) translateX(2px);
+    }
+
+#textArea {
+    visibility: hidden;
+    padding: 1rem 0;
+
+}
+
+#firstInput {
+    background-color: rgb(255,220,144,0.5);
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    border: 1;
+    outline: none;
+    font-size: 16px;
+    box-shadow: inset 1px 1px 2px;
+}
+
+#deleteButton {
+    margin-bottom: 1rem;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+    #deleteButton:hover {
+        cursor: pointer;
+    }
+
+    #deleteButton:active {
+        background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+        box-shadow: 1px 2px rgba(0, 0, 0, 0.6);
+        transform: translateY(1px) translateX(1px);
+    }
