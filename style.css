@@ -20,12 +20,13 @@ header {
     padding: 1rem 0;
 }
 
-#firstBox {
+#main__firstBox {
     border-radius: 15px;
     background-color: rgb(243, 238, 232);
     width: 50%;
     margin: 2rem auto 0 auto;
     text-align:center;
+    box-shadow: inset 0 0 20px black;
 }
 
 #firstButton {
@@ -88,3 +89,26 @@ header {
         box-shadow: 1px 2px rgba(0, 0, 0, 0.6);
         transform: translateY(1px) translateX(1px);
     }
+
+
+#main__secondBox {
+    height: 200px;
+    background-image: url(../assets/pattern.png);
+    background-size: 40px 40px;
+    animation: 300s linear 0s infinite header-background-animation;
+    border-radius: 15px;
+    background-color: rgb(243, 238, 232);
+    width: 50%;
+    margin: 2rem auto 0 auto;
+    text-align:center;
+    box-shadow: 0 0 10px black;
+}
+
+@keyframes header-background-animation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 6000px 2000px;
+    }
+}
