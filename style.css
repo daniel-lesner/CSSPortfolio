@@ -93,7 +93,7 @@ header {
 
 #main__secondBox {
     height: 200px;
-    background-image: url(../assets/pattern.png);
+    background-image: url(assets/pattern.png);
     background-size: 40px 40px;
     animation: 300s linear 0s infinite header-background-animation;
     border-radius: 15px;
